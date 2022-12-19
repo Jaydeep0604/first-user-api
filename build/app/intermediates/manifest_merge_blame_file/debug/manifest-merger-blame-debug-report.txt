@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.first_user_api"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:5:1-75
+15-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:5:18-72
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:6:1-75
+16-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:6:18-73
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:7:1-62
+17-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:7:18-59
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:8:1-76
+18-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:8:18-74
+19
+20    <queries>
+20-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:9:1-29:15
+21        <intent>
+21-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:10:3-12:12
+22            <action android:name="android.speech.RecognitionService" />
+22-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:11:4-63
+22-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:11:12-60
+23        </intent>
+24        <!-- If your app opens https URLs -->
+25        <intent>
+25-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:14:3-18:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:15:13-65
+26-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:15:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:16:13-74
+28-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:16:23-71
+29
+30            <data android:scheme="https" />
+30-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:17:13-44
+30-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:17:19-41
+31        </intent>
+32        <!-- If your app makes calls -->
+33        <intent>
+33-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:20:9-23:18
+34            <action android:name="android.intent.action.DIAL" />
+34-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:21:13-65
+34-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:21:21-62
+35
+36            <data android:scheme="tel" />
+36-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:17:13-44
+36-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:17:19-41
+37        </intent>
+38        <!-- If your app sends emails -->
+39        <intent>
+39-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:25:9-28:18
+40            <action android:name="android.intent.action.SEND" />
+40-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:26:13-65
+40-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:26:21-62
+41
+42            <data android:mimeType="*/*" />
+42-->/home/xceltec-065/Desktop/flutter/first_user_api/android/app/src/main/AndroidManifest.xml:17:13-44
+43        </intent>
+44    </queries>
+45
+46    <application
+47        android:name="android.app.Application"
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.6.0] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+51        android:label="first_user_api" >
+52        <activity
+53            android:name="com.example.first_user_api.MainActivity"
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+55            android:exported="true"
+56            android:hardwareAccelerated="true"
+57            android:launchMode="singleTop"
+58            android:theme="@style/LaunchTheme"
+59            android:windowSoftInputMode="adjustResize" >
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+68                android:name="io.flutter.embedding.android.NormalTheme"
+69                android:resource="@style/NormalTheme" />
+70
+71            <intent-filter>
+72                <action android:name="android.intent.action.MAIN" />
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+82            android:name="flutterEmbedding"
+83            android:value="2" />
+84
+85        <activity
+85-->[:url_launcher_android] /home/xceltec-065/Desktop/flutter/first_user_api/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher_android] /home/xceltec-065/Desktop/flutter/first_user_api/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher_android] /home/xceltec-065/Desktop/flutter/first_user_api/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher_android] /home/xceltec-065/Desktop/flutter/first_user_api/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] /home/xceltec-065/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+96    </application>
+97
+98</manifest>

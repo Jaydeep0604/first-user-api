@@ -1,0 +1,4 @@
+#Sat Dec 10 10:22:24 IST 2022
+base.0=/home/xceltec-065/Desktop/flutter/first_user_api/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
